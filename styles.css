@@ -398,9 +398,21 @@ nav {
 }
 
 .hero-android {
-    display: block;
+    display: flex;
     margin: 1.5rem auto 0;
     width: fit-content;
+}
+
+.hero-email-fallback {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.android-email-fallback {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
 }
 
 /* Support */
