@@ -46,8 +46,9 @@ nav {
 }
 
 .logo-icon {
-    width: 36px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
 }
 
 .btn-nav {
