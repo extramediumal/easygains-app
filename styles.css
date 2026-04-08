@@ -398,7 +398,9 @@ nav {
 }
 
 .hero-android {
-    margin-top: 1rem;
+    display: block;
+    margin: 1.5rem auto 0;
+    width: fit-content;
 }
 
 /* Support */
