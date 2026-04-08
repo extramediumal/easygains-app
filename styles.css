@@ -349,6 +349,54 @@ nav {
     height: 22px;
 }
 
+/* Android Beta */
+.android-beta {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+}
+
+.android-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin-bottom: 0.25rem;
+}
+
+.android-beta .android-text {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.btn-android {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: transparent;
+    color: var(--green);
+    padding: 0.65rem 1.5rem;
+    border-radius: 12px;
+    border: 2px solid var(--green);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.btn-android:hover {
+    background: var(--green);
+    color: var(--bg);
+    transform: translateY(-2px);
+}
+
+.android-icon {
+    width: 20px;
+    height: 20px;
+}
+
 /* Support */
 .support {
     padding: 5rem 5%;
