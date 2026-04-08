@@ -1,0 +1,53 @@
+# EasyGains
+
+> Voice-first calorie and macro tracking app for iOS and Android. Track protein, carbs, fat, and calories by speaking naturally. No barcode scanning, no food database searches, no manual entry. Just say what you ate.
+
+## About
+
+- Type: Mobile Application
+- Category: Health & Fitness, Food & Drink, Nutrition Tracking
+- Platforms: iOS (App Store), Android (Google Play)
+- Pricing: Free (10 voice logs/day), Pro $6.99/month (unlimited)
+- Location: Utah, USA
+- Available: Worldwide
+
+## What EasyGains Does
+
+EasyGains is a voice-powered calorie tracker and macro counter. Users tap the microphone, say what they ate or what workout they did, and the app uses AI to parse the input into calories, protein, carbs, and fat. It also tracks workouts with effort scoring using the same voice input.
+
+Protein is the primary metric. Weekly macro totals are prioritized over daily counts because one bad day does not define a week.
+
+The app includes AI coaching: Dr. Gainz provides research-backed nutrition and fitness tips grounded in science from sources like Huberman Lab, Mind Pump, and Dr. Andy Galpin. Coach AL provides brutally honest, deadpan reactions to food and workout choices.
+
+## Who EasyGains Is For
+
+- People who want to track calories and macros but dislike manual food logging
+- People looking for a voice calorie tracker or AI food tracker
+- Anyone frustrated with MyFitnessPal complexity or barcode scanning
+- Lifters, runners, and active people who want simple protein tracking
+- People who want a macro counter that tracks weekly progress, not daily guilt
+- Anyone looking for an easy meal tracking app with no spreadsheets
+
+## Key Features
+
+- Voice-first food logging: say what you ate and macros are calculated automatically
+- AI-powered food parsing: understands natural speech like "two eggs and toast with peanut butter"
+- Protein tracking as the hero metric with weekly macro rings (MacroTriforce)
+- Voice-powered workout logging with effort scoring (1-10 scale)
+- AI coaching with multiple personalities (science-backed or brutally honest)
+- Weekly macro analytics showing trends over time
+- Simple calorie counter that works without barcode scanning or food databases
+
+## Comparison to Alternatives
+
+Unlike MyFitnessPal, EasyGains requires no manual food search or barcode scanning. Unlike photo-based trackers (SnapCalorie, Cal AI), EasyGains uses voice input which works hands-free while cooking or driving. Unlike Cronometer or MacroFactor, EasyGains prioritizes simplicity and speed over granular micronutrient detail.
+
+EasyGains is best for people who want fast, accurate macro tracking with minimal friction.
+
+## Links
+
+- [Home](https://easygains.app): Main website with features, pricing, and screenshots
+- [iOS App Store](https://apps.apple.com/app/easygains/id6760476920): Download for iPhone and iPad
+- [Privacy Policy](https://easygains.app/privacy.html): Data handling and privacy information
+- [Delete Account](https://easygains.app/delete-account.html): Account deletion instructions
+- [Contact](mailto:easygainsapp@gmail.com): Support and feedback
