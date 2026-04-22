@@ -69,9 +69,43 @@ nav {
 /* Hero */
 .hero {
     text-align: center;
-    padding: 7rem 5% 5rem;
+    padding: 4rem 5% 5rem;
     max-width: 780px;
     margin: 0 auto;
+}
+
+.hero-3d {
+    width: 100%;
+    max-width: 420px;
+    height: 280px;
+    margin: 0 auto 1.5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-3d-fallback {
+    width: 55%;
+    max-width: 200px;
+    height: auto;
+    opacity: 0.85;
+    filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.5));
+}
+
+/* When SVG3D mounts it replaces the fallback with its own canvas — make sure that canvas fills the container. */
+.hero-3d canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
+
+@media (max-width: 640px) {
+    .hero-3d {
+        height: 220px;
+        max-width: 320px;
+        margin-bottom: 1rem;
+    }
 }
 
 .eyebrow {

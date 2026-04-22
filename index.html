@@ -72,6 +72,9 @@
     </nav>
 
     <section class="hero">
+        <div class="hero-3d" id="hero-3d" aria-hidden="true">
+            <img src="assets/dumbbell.svg" alt="" class="hero-3d-fallback">
+        </div>
         <p class="eyebrow">Voice-first macro tracker</p>
         <h1>Eat your protein.<br>Move your body.<br>Don't overthink the rest.</h1>
         <p class="subtitle">Just tap the mic and say what you ate. EasyGains handles the rest — no menus, no databases, no spreadsheets.</p>
@@ -199,6 +202,47 @@
             document.querySelectorAll('.phone-wrap').forEach(w => w.classList.remove('featured'));
             el.classList.add('featured');
         }
+    </script>
+
+    <!-- 3dsvg hero — lazy-loads a pre-bundled JS (React + three.js + 3dsvg) when the hero scrolls into view.
+         Bundle built from the Remotion project: `node web-hero/build.mjs`.
+         Static SVG fallback remains if JS or WebGL is unavailable. -->
+    <script type="module">
+        (async () => {
+            const target = document.getElementById("hero-3d");
+            if (!target) return;
+
+            // Lazy-load: only fetch the ~1.3 MB bundle when the hero is near the viewport.
+            await new Promise((resolve) => {
+                const obs = new IntersectionObserver((entries) => {
+                    if (entries.some((e) => e.isIntersecting)) {
+                        obs.disconnect();
+                        resolve();
+                    }
+                }, { rootMargin: "300px" });
+                obs.observe(target);
+            });
+
+            try {
+                const { mount } = await import("./assets/hero-3d.js");
+                mount(target, {
+                    svg: "/assets/dumbbell.svg",
+                    material: "metal",
+                    animate: "float",
+                    depth: 0.9,
+                    smoothness: 0.35,
+                    color: "#FFFFFF",
+                    shadow: true,
+                    background: "transparent",
+                    ambientIntensity: 0.4,
+                    lightIntensity: 1.4,
+                    cursorOrbit: true,
+                    orbitStrength: 0.8,
+                });
+            } catch (err) {
+                console.error("[hero-3d] bundle failed to load — keeping 2D fallback:", err);
+            }
+        })();
     </script>
 
 </body>

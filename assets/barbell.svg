@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 512" width="1024" height="512">
+  <!-- Each closed shape extrudes independently in 3dsvg.design. -->
+
+  <!-- Bar (thin dark rod) -->
+  <rect x="350" y="244" width="324" height="24" rx="6" fill="#3A3A3C"/>
+
+  <!-- Sleeves (thicker silver, extend the full plate-stack width) -->
+  <rect x="25" y="236" width="325" height="40" rx="8" fill="#9A9A9C"/>
+  <rect x="674" y="236" width="325" height="40" rx="8" fill="#9A9A9C"/>
+
+  <!-- Collars (dark rings at bar-sleeve boundary) -->
+  <rect x="345" y="230" width="10" height="52" rx="2" fill="#5A5A5C"/>
+  <rect x="669" y="230" width="10" height="52" rx="2" fill="#5A5A5C"/>
+
+  <!-- Left plates: innermost blue (biggest), then yellow, then pink outermost — tangent circles -->
+  <circle cx="280" cy="256" r="80" fill="#4A90D9"/>
+  <circle cx="145" cy="256" r="55" fill="#FFCC00"/>
+  <circle cx="60"  cy="256" r="30" fill="#FF6B8A"/>
+
+  <!-- Right plates: mirrored around x=512 -->
+  <circle cx="744" cy="256" r="80" fill="#4A90D9"/>
+  <circle cx="879" cy="256" r="55" fill="#FFCC00"/>
+  <circle cx="964" cy="256" r="30" fill="#FF6B8A"/>
+</svg>

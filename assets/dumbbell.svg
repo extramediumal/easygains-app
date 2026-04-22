@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Recreation of EasyGains adaptive-icon.png — white dumbbell on transparent bg. -->
+  <!-- Each closed shape extrudes independently in 3dsvg. -->
+
+  <!-- Bar (horizontal connector between inner weights) -->
+  <rect x="372" y="486" width="280" height="52" rx="10" fill="#FFFFFF"/>
+
+  <!-- Inner weights — larger pills close to the bar -->
+  <rect x="298" y="352" width="84" height="320" rx="42" fill="#FFFFFF"/>
+  <rect x="642" y="352" width="84" height="320" rx="42" fill="#FFFFFF"/>
+
+  <!-- Outer weights — smaller pills at the very ends -->
+  <rect x="228" y="418" width="52" height="188" rx="26" fill="#FFFFFF"/>
+  <rect x="744" y="418" width="52" height="188" rx="26" fill="#FFFFFF"/>
+</svg>
